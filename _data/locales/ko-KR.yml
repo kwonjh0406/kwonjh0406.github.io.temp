@@ -18,7 +18,7 @@ tabs:
 
 # the text displayed in the search bar & search results
 search:
-  hint: 검색
+  hint: Search
   cancel: 취소
   no_results: 검색 결과가 없습니다.
 
