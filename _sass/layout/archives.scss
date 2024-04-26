@@ -5,11 +5,8 @@
 #archives {
   letter-spacing: 0.03rem;
 
-  $timeline-width: 4px;
-
   %timeline {
     content: '';
-    width: $timeline-width;
     position: relative;
     float: left;
     background-color: var(--timeline-color);
@@ -20,7 +17,7 @@
     font-size: 1.5rem;
     position: relative;
     left: 2px;
-    margin-left: -$timeline-width;
+    font-weight: bold;
 
     &::before {
       @extend %timeline;
@@ -37,21 +34,6 @@
       top: 24px;
     }
 
-    /* Year dot */
-    &::after {
-      content: '';
-      display: inline-block;
-      position: relative;
-      border-radius: 50%;
-      width: 12px;
-      height: 12px;
-      left: 21.5px;
-      border: 3px solid;
-      background-color: var(--timeline-year-dot-color);
-      border-color: var(--timeline-node-bg);
-      box-shadow: 0 0 2px 0 #c2c6cc;
-      z-index: 1;
-    }
   }
 
   ul {
@@ -118,10 +100,9 @@
       width: 8px;
       height: 8px;
       float: left;
-      top: 1.35rem;
-      left: 71px;
+      top: 1.3rem;
+      left: 75px;
       background-color: var(--timeline-node-bg);
-      box-shadow: 0 0 3px 0 #c2c6cc;
       z-index: 1;
     }
   }

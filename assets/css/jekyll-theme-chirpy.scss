@@ -44,6 +44,18 @@ article.px-1 header {
   margin-bottom: 4rem;
 }
 
+li.list-group-item {
+  border: none;
+}
+
+a:hover {
+  color: #7db150 !important;
+}
+
+a.btn.btn-outline-primary:hover {
+  color: white !important;
+}
+
 a.trending-tags {
   line-height: 2;
   padding-right: 10px;
