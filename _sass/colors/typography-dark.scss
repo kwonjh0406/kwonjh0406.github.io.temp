@@ -9,10 +9,10 @@
   --main-border-color: rgb(44, 45, 45);
 
   /* Common color */
-  --text-color: #ECECEC;
+  --text-color: #ececec;
   --text-muted-color: #868686;
   --text-muted-hightlight-color: #aeaeae;
-  --heading-color: #ECECEC;
+  --heading-color: #ececec;
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
@@ -35,8 +35,8 @@
   --post-list-border-color: #3a3a3a;
 
   /* Sidebar */
-  --site-title-color: #ECECEC;
-  --site-subtitle-color: #D9D9D9;
+  --site-title-color: #ececec;
+  --site-subtitle-color: #d9d9d9;
   --sidebar-bg: #1e1e1e;
   --sidebar-border-color: #292929;
   --sidebar-muted-color: #ececec;
@@ -58,8 +58,8 @@
   --btn-paginator-hover-color: #2e2e2e;
 
   /* Posts */
-  --toc-highlight: #7DB150;
-  --tag-hover: rgb(68, 69, 70);
+  --toc-highlight: #7db150;
+  --tag-hover: rgb(41, 41, 41);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
   --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
@@ -129,14 +129,7 @@
   }
 
   #archives li:nth-child(odd) {
-    background-image: linear-gradient(
-      to left,
-      rgb(26, 26, 30),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(26, 26, 30)
-    );
+    background: transparent;
   }
 
   color-scheme: dark;

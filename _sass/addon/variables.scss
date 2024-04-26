@@ -29,5 +29,15 @@ $code-icon-width: 1.75rem !default;
 
 /* fonts */
 
-$font-family-base: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", 나눔고딕, "Nanum Gothic", "Noto Sans KR", "Noto Sans CJK KR", arial, 돋움, Dotum, Tahoma, Geneva, sans-serif !default;
-$font-family-heading: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", 나눔고딕, "Nanum Gothic", "Noto Sans KR", "Noto Sans CJK KR", arial, 돋움, Dotum, Tahoma, Geneva, sans-serif !default;
+@font-face {
+  font-family: 'LINESeed Regular';
+  src: url('/assets/woff2/LINESeedKR-Rg.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LINESeed Bold';
+  src: url('/assets/woff2/LINESeedKR-Bd.woff2') format('woff2');
+}
+
+$font-family-base: 'LINESeed Regular' !default;
+$font-family-heading: 'LINESeed Bold' !default;

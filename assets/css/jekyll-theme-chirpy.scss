@@ -6,68 +6,82 @@
 /* append your custom style below */
 
 h1 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 h3 {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 h4 {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 h5 {
-    font-size: 1.125rem;
-    font-weight: bold;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
-a {
-    color: #7db150;
+.card.categories {
+  border: none;
+  --bs-card-cap-bg: transparent;
+}
+
+.content a {
+  color: #7db150;
+}
+
+article.px-1 header {
+  border-bottom: 1px solid var(--post-list-border-color);
+}
+
+.post-meta.text-muted {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 a.trending-tags {
-    line-height: 2;
-    padding-right: 10px;
-    color: #949494;
-    font-size: 14px;
+  line-height: 2;
+  padding-right: 10px;
+  color: #949494;
+  font-size: 14px;
 }
 
 a.trending-tags:hover {
-    color: #7db150;
+  color: #7db150;
 }
 
 a.mx-2 {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 h1.card-title.my-2.mt-md-0 {
-    margin-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 @media screen and (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    h2 {
-        font-size: 1.8rem;
-        font-weight: bold;
-    }
-    h3 {
-        font-size: 1.6rem;
-        font-weight: bold;
-    }
-    h4 {
-        font-size: 1.4rem;
-        font-weight: bold;
-    }
-    h5 {
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
 }

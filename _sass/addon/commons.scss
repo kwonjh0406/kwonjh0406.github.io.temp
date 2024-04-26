@@ -337,9 +337,7 @@ sup {
   background: var(--main-bg);
   border: 0;
 
-
   &::before {
-    
     content: '';
     width: 100%;
     height: 100%;
@@ -481,6 +479,7 @@ main {
 
 .tag:hover {
   @extend %tag-hover;
+  color: var(--text-color) !important;
 }
 
 .post-tag {
@@ -769,16 +768,13 @@ $btn-mb: 0.5rem;
     li.nav-item {
       opacity: 0.9;
       width: 100%;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
 
       a.nav-link {
-        @include pt-pb(0.6rem);
+        @include pt-pb(0.8rem);
+        padding-left: 2rem;
 
         display: flex;
         align-items: center;
-        border-radius: 0.75rem;
-        font-weight: 600;
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
@@ -805,10 +801,6 @@ $btn-mb: 0.5rem;
             opacity: 1;
           }
         }
-      }
-
-      &:not(:first-child) {
-        margin-top: 0.25rem;
       }
     }
   }
@@ -878,10 +870,6 @@ $btn-mb: 0.5rem;
 @media (hover: hover) {
   #sidebar ul > li:last-child::after {
     transition: top 0.5s ease;
-  }
-
-  .nav-link {
-    transition: background-color 0.3s ease-in-out;
   }
 
   .post-preview {
@@ -1384,7 +1372,7 @@ search {
 
   main {
     h1 {
-      margin-top: 3rem;
+      margin-top: 10rem;
     }
   }
 
@@ -1517,12 +1505,6 @@ search {
       margin-top: 3.5rem;
       margin-bottom: 2.5rem;
       padding-left: 3.5rem;
-    }
-
-    ul {
-      li.nav-item {
-        @include pl-pr(2.75rem);
-      }
     }
 
     .sidebar-bottom {
