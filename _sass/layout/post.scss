@@ -5,7 +5,7 @@
 %btn-post-nav {
   width: 50%;
   position: relative;
-  border-color: var(--btn-border-color);
+  border-color: transparent;
 }
 
 @mixin dot($pl: 0.25rem, $pr: 0.25rem) {
@@ -134,7 +134,7 @@ h1 + .post-meta {
 
     &:hover {
       &:not(.disabled)::before {
-        color: whitesmoke;
+        color: var(--text-color);
       }
     }
 
@@ -153,7 +153,7 @@ h1 + .post-meta {
 
     &::before {
       color: var(--text-muted-color);
-      font-size: 0.65rem;
+      font-size: 0.8rem;
       text-transform: uppercase;
       content: attr(aria-label);
     }
@@ -161,11 +161,17 @@ h1 + .post-meta {
     &:first-child {
       border-radius: $base-radius 0 0 $base-radius;
       left: 0.5px;
+      display: grid;
+      cursor: default;
+
     }
 
     &:last-child {
       border-radius: 0 $base-radius $base-radius 0;
       right: 0.5px;
+      display: grid;
+      cursor: default;
+
     }
   }
 
