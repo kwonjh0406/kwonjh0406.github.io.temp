@@ -13,8 +13,8 @@
   
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'linkedin.com'                  # Fill with your Linkedin homepage
+  url:  https://www.linkedin.com/in/%EC%A4%80%ED%98%95-%EA%B6%8C-400aba304                # Fill with your Linkedin homepage
 
 - type: stack-overflow
   icon: 'fab fa-stack-overflow'
-  url:  'stackoverflow.com'                  # Fill with your stackoverflow homepage
+  url:  https://stackoverflow.com/users/22986887/kwonjh0406                  # Fill with your stackoverflow homepage
