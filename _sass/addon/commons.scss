@@ -793,6 +793,7 @@ $btn-mb: 0.5rem;
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
+          padding-top: 2px;
         }
       }
 
@@ -1075,7 +1076,7 @@ search {
 #topbar-title {
   display: none;
   font-size: 1.2rem;
-  padding-top: 5px;
+  padding-top: 4px;
   font-family: $font-family-heading;
   text-align: center;
   width: 70%;
