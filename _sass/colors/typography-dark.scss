@@ -47,8 +47,7 @@
   --avatar-border-color: rgb(206, 206, 206, 0.9);
 
   /* Topbar */
-  --topbar-bg: rgb(27, 27, 30, 0.64);
-  --topbar-text-color: var(--text-color);
+  --topbar-bg: rgb(27, 27, 30, 0.96);
   --input-focus-border-color: rgb(112, 114, 115);
 
   /* Home page */
@@ -58,7 +57,7 @@
 
   /* Posts */
   --toc-highlight: #7db150;
-  --tag-hover: rgb(41, 41, 41);
+
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
   --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
@@ -85,6 +84,7 @@
   /* tags */
   --tag-border: rgb(68, 69, 70);
   --search-tag-bg: #292828;
+  --tag-hover: rgb(68, 69, 70);
 
   /* categories */
   --categories-border: rgb(64, 66, 69, 0.5);

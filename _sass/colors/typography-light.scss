@@ -52,8 +52,7 @@
   --avatar-border-color: white;
 
   /* Topbar */
-  --topbar-bg: rgb(255, 255, 255, 0.7);
-  --topbar-text-color: rgb(78, 78, 78);
+  --topbar-bg: rgba(255, 255, 255, 0.96);
   --input-focus-border-color: #b8b8b8;
 
   /* Home page */
@@ -86,7 +85,7 @@
   --prompt-danger-icon-color: #df3c30;
 
   /* Tags */
-  --tag-border: #dadada;
+  --tag-border: rgb(241, 241, 241);
   --tag-hover: rgb(241, 241, 241);
   --search-tag-bg: #f8f9fa;
 
