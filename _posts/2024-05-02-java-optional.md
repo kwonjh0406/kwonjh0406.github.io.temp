@@ -1,5 +1,5 @@
 ---
-title: "[JAVA] Optional이란 무엇인가?"
+title: "[JAVA] Optional 클래스
 categories: [언어, JAVA]
 tags: JAVA
 ---
@@ -34,7 +34,7 @@ Optional을 사용하면 NULL을 직접적으로 다루지 않기에 NPE가 생�
 >객체가 NULL이 아닌 경우에만 사용하자.
 
 객체를 Optional로 감싸 반환합니다.
-근데 Optional.of(T)의 경우는 객체가 NULL인 경우 Null Pointer Exception이 발생합니다. 이를 해결하기 위해 Optional.nullable(T)이 있습니다.
+근데 Optional.of(T)의 경우는 객체가 NULL인 경우 Null Pointer Exception이 발생합니다. 이를 해결하기 위해 Optional.ofNullable(T)이 있습니다.
 
 ### Optional.ofNullable(T)
 
