@@ -1308,6 +1308,7 @@ search {
 
   #main-wrapper {
     @include slide;
+    transform: translateX(100%);
   }
 
   #topbar {
