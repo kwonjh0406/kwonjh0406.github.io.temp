@@ -1328,7 +1328,8 @@ search {
     background-color: var(--topbar-bg);
     height: 60px !important;
     left: 0;
-    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: saturate(180%) blur(3px);
+    backdrop-filter: saturate(180%) blur(3px);
     z-index: 1000;
   }
 
