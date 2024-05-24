@@ -1069,6 +1069,7 @@ search {
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
+      padding-top: 10px;
     }
   }
 } /* #search-results */
@@ -1265,6 +1266,14 @@ search {
     }
   }
 
+  h1.ps-lg-2 {
+    padding-left: 10px;
+  }
+
+  ul#post-list {
+    padding-left: 0px;
+  }
+
   footer {
     @include slide;
 
@@ -1429,6 +1438,15 @@ search {
   #search-results > div {
     max-width: 700px;
   }
+
+  h1.ps-lg-2 {
+    padding-left: 10px;
+  }
+
+  ul#post-list {
+    padding-left: 0px;
+  }
+
 
   #breadcrumb {
     width: 65%;
