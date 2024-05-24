@@ -1284,11 +1284,17 @@ search {
   [#{$sidebar-display}] {
     #sidebar {
       transform: translateX(0);
-      width: 100%;
+      background-color: var(--topbar-bg);
+      -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+      width: 260px;
     }
+    // #topbar-wrapper {
+    //   transform: translateX(260px);
+    // }
 
     // #main-wrapper {
-    //   transform: translateX($sidebar-width);
+    //   transform: translateX(260px);
     // }
 
 
@@ -1302,7 +1308,7 @@ search {
 
     transform: translateX(-$sidebar-width); /* hide */
     padding-top: 60px;
-    width: 100%;
+    width: 260px;
     -webkit-transform: translateX(-100%);
   }
 
