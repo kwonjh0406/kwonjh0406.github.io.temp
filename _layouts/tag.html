@@ -11,7 +11,7 @@ layout: page
     #{{ page.title }}
     <span class="lead text-muted ps-2">{{ page.posts | size }} 포스트</span>
   </h1>
-  <ul id="post-list" class="flex-grow-1 px-xl-1">
+  <div id="post-list" class="flex-grow-1 px-xl-1">
     {% for post in page.posts %}
       <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
@@ -81,5 +81,5 @@ layout: page
       </a>
     </article>
     {% endfor %}
-  </ul>
+  </div>
 </div>
