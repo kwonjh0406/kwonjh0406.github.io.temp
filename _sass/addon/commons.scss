@@ -884,7 +884,6 @@ $btn-mb: 0.5rem;
 
 #search-result-wrapper {
   display: none;
-  height: 100%;
   width: 100%;
   overflow: auto;
   padding-top: 60px;
@@ -1284,9 +1283,7 @@ search {
   [#{$sidebar-display}] {
     #sidebar {
       transform: translateX(0);
-      background-color: var(--topbar-bg);
-      -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+
       width: 260px;
     }
     // #topbar-wrapper {
@@ -1305,9 +1302,13 @@ search {
 
   #sidebar {
     @include slide;
+    background-color: var(--topbar-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 
     transform: translateX(-$sidebar-width); /* hide */
-    padding-top: 60px;
+    margin-top: 60px;
+    padding-bottom: 60px;
     width: 260px;
     -webkit-transform: translateX(-100%);
   }
