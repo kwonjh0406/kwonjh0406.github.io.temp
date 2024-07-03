@@ -165,9 +165,9 @@ i {
 /* --- Panels --- */
 
 .access {
-  top: 2rem;
+  top: 120px;
   transition: top 0.2s ease-in-out;
-  margin-top: 3rem;
+  margin-top: 60px;
   margin-bottom: 4rem;
 
   &:only-child {
@@ -1254,7 +1254,7 @@ search {
 }
 
 /* hide sidebar and panel */
-@media all and (max-width: 849px) {
+@media all and (max-width: 8490px) {
   @mixin slide($append: null) {
     $basic: transform 0.4s ease;
 
@@ -1294,7 +1294,6 @@ search {
     //   transform: translateX(260px);
     // }
 
-
     #back-to-top {
       visibility: hidden;
     }
@@ -1315,27 +1314,10 @@ search {
 
   #main-wrapper {
     @include slide;
-    
   }
 
   #topbar {
     border-bottom: 1px solid var(--post-list-border-color);
-    
-    
-    
-    
-  }
-  #main-wrapper > .container {
-    max-width: 100%;
-  }
-
-  #search-result-wrapper {
-    width: 100%;
-  }
-
-  #breadcrumb,
-  search {
-    display: none;
   }
 
   #topbar-wrapper {
@@ -1350,13 +1332,26 @@ search {
     z-index: 1000;
   }
 
+  #main-wrapper > .container {
+    max-width: 100%;
+  }
+
+  #search-result-wrapper {
+    width: 100%;
+  }
+
+  #breadcrumb,
+  search {
+    display: none;
+  }
+
   main.col-12.col-lg-11.col-xl-9.px-md-4 {
     padding-top: 60px;
   }
 
   main,
   #panel-wrapper {
-    margin-top: 0;
+    margin-top: 60px;
   }
 
   #topbar-title,
@@ -1387,10 +1382,6 @@ search {
   /* Solved jumping scrollbar */
   html {
     overflow-y: scroll;
-  }
-
-  #main-wrapper {
-    margin-left: $sidebar-width;
   }
 
   #sidebar {
@@ -1427,10 +1418,6 @@ search {
     right: 5%;
     bottom: calc($footer-height - $back2top-size / 2);
   }
-
-  #topbar-title {
-    text-align: left;
-  }
 }
 
 /* Pad horizontal */
@@ -1454,7 +1441,6 @@ search {
   ul#post-list {
     padding-left: 0px;
   }
-
 
   #breadcrumb {
     width: 65%;
@@ -1481,6 +1467,11 @@ search {
 @media all and (min-width: 1200px) {
   search {
     margin-right: 4rem;
+  }
+
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   #search-input {
@@ -1520,10 +1511,6 @@ search {
 
   #main-wrapper {
     margin-left: $sidebar-width-large;
-  }
-
-  #topbar-wrapper {
-    left: $sidebar-width-large;
   }
 
   search {
